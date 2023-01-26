@@ -1,0 +1,107 @@
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.align-center {
+  align-content: center;
+}
+.align-start {
+  align-content: flex-start;
+}
+.align-end {
+  align-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.grow {
+  flex-grow: 1;
+}
+.shrink {
+  flex-shrink: 1;
+}
+
+.self-center {
+  align-self: center;
+}
+.self-start {
+  align-self: flex-start;
+}
+.self-end {
+  align-self: flex-end;
+}
+
+.mr-1 * {
+  margin-right: 1rem;
+}
+
+h4.navmap-list-title.navmap-list-title-framework + ul li,
+h4.navmap-list-title.navmap-list-title-frontend + ul li,
+h4.navmap-list-title.navmap-list-title-backend + ul li,
+h4.navmap-list-title.navmap-list-title-bancoDeDados + ul li {
+  margin-top: 0.5rem;
+}
+.mr-0\.5 {
+  margin-right: 0.5rem;
+}
+@media (max-width: 769px) {
+  .mobile\:flex-col {
+    flex-direction: column;
+  }
+  .mobile\:flex-col {
+    flex-direction: none;
+  }
+
+  .mobile\:items-center {
+    align-items: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tablet\:flex-col {
+    flex-direction: column;
+  }
+  .tablet\:flex-col {
+    flex-direction: none;
+  }
+
+  .tablet\:items-center {
+    align-items: center;
+  }
+}
