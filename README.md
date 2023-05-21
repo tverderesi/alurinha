@@ -24,8 +24,11 @@ The project structure is as follows:
 To view the Alurinha landing page, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Open the `index.html` file in your preferred web browser.
-3. Explore the different sections of the landing page, including the course listings and contact form.
+```
+git clone https://github.com/tverderesi/alurinha
+```
+3. Open the `index.html` file in your preferred web browser.
+4. Explore the different sections of the landing page, including the course listings and contact form.
 
 The Flexbox layout was heavily utilized throughout the page to create responsive and visually appealing designs. It allows the content to automatically adjust and align itself based on the available space, ensuring a consistent and optimal user experience across different devices and screen sizes.
 
